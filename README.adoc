@@ -1,0 +1,67 @@
+:toc:
+:toc-placement!:
+
+:note-caption: :information_source:
+:tip-caption: :bulb:
+:important-caption: :heavy_exclamation_mark:
+:warning-caption: :warning:
+:caution-caption: :fire:
+
+= ZeroMQ Experiment
+Ron Kurr <rkurr@jvmguy.com>
+
+
+toc::[]
+
+== Overview
+This project is a collection of simple experiments with the http://zeromq.org/[ZeroMQ] messaging library.  I was inspired to investigate ZeroMQ by a https://www.safaribooksonline.com/library/view/oreilly-software-architecture/9781491976203/video302664.html[presentation by Allen Holub] did.
+
+== Guidebook
+Details about this project are contained in the [guidebook](guidebook/guidebook.md) and should be considered mandatory reading prior to contributing to this project.
+
+== Prerequisites
+
+* http://zulu.org/[Java 8] installed and working
+* development was done using https://app.vagrantup.com/kurron/boxes/xenial-xubuntu[this Vagrant development environment]
+
+== Building
+
+== Installation
+
+== Tips and Tricks
+=== Request-Reply
+=== Publish-Subscribe
+=== Parallel Pipeline
+=== Exclusive Pair
+=== Shared Queue (DEALER and ROUTER sockets)
+=== ZeroMQ's Built-In Proxy Function
+=== Transport Bridging
+=== Handling Errors and ETERM
+=== Signaling Between Threads (PAIR Sockets)
+=== Pub-Sub Synchronization
+=== The REQ to REP Combination
+=== The DEALER to REP Combination
+=== The REQ to ROUTER Combination
+=== The DEALER to ROUTER Combination
+=== The DEALER to DEALER Combination
+=== The ROUTER to ROUTER Combination
+=== The Load Balancing Pattern
+=== ROUTER Broker and REQ Workers
+=== ROUTER Broker and DEALER Workers
+=== The Asynchronous Client/Server Pattern
+=== The Lazy Pirate Pattern
+=== The Simple Pirate Pattern
+=== The Paranoid Pirate Pattern
+=== The Majordomo Pattern
+=== The Titanic Pattern
+=== The Binary Star Pattern
+=== The Freelance Pattern
+
+== Troubleshooting
+
+== Contributing
+
+== License and Credits
+This project is licensed under the https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License].
+
+== List of Changes
